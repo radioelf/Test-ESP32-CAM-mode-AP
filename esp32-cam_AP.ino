@@ -150,8 +150,7 @@ void setup() {
 #if defined(LED_GPIO_NUM)
   setupLedFlash(LED_GPIO_NUM);
 #endif
-  // Limite a 5 clientes
-
+        
   WiFi.mode(WIFI_AP);
   WiFi.softAP(ssid, password);
 
