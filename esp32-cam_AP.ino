@@ -1,5 +1,5 @@
 /*
-        Ejemplo de streaming para ESP32-CAMen en modo Acces Point
+        Ejemplo de streaming para ESP32-CAM en modo Acces Point
 basado en/based on:
 https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/
 
@@ -55,7 +55,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 // Credenciales WiFi
 // ===========================
 const char* ssid = "ESP32-CAM AP";
-const char* password = "";
+const char* password = ""; // SIN contraseña, solo para test
 
 void startCameraServer();
 void setupLedFlash(int pin);
