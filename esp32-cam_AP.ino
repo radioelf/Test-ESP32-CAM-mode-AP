@@ -55,7 +55,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 // Credenciales WiFi
 // ===========================
 const char* ssid = "ESP32-CAM AP";
-const char* password = ""; // SIN contraseña, solo para test
+const char* password = "ESP32-CAM_AP"; 
 
 void startCameraServer();
 void setupLedFlash(int pin);
