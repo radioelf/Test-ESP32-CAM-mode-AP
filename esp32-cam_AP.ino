@@ -162,7 +162,8 @@ void setup() {
   Serial.println(myIP);
 }
 void loop() {
-  uint8_t clients = WiFi.softAPgetStationNum() if (clients > 1) {
+  uint8_t clients = WiFi.softAPgetStationNum();
+  if (clients > 1) {
     WiFi.softAPdisconnect(true);
     Serial.println("SOLO permitimos 1 conexión");
   }
